@@ -1,1 +1,57 @@
+table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
 
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+td {
+  padding: 10px;
+}
+
+header {
+  background-color: rosybrown;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  margin-bottom: 20px;
+  box-shadow: 0 7px 10px rgb(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  color: whitesmoke;
+}
+
+body {
+  margin: 0;
+}
+
+form {
+  padding: 20px;
+}
+
+.btn {
+  background-color: rosybrown;
+  height: 30px;
+  width: 90px;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.total {
+  text-align: end;
+  padding-right: 150px;
+  padding-top: 10px;
+}
+
+.container {
+  padding: 30px;
+}

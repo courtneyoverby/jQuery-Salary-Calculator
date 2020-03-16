@@ -14,67 +14,71 @@
     <header>
       <h1>Salary Calculator</h1>
     </header>
-    <form class="js-employee-stats">
-      <input
-        class="js-employee-FN"
-        type="text"
-        placeholder="First Name"
-        id="FirstName"
-        name="FirstName"
-      />
-      <input
-        class="js-employee-LN"
-        type="text"
-        placeholder="Last Name"
-        id="LastName"
-        name="LastName"
-      />
-      <input
-        class="js-employee-ID"
-        type="number"
-        placeholder="ID"
-        id="ID"
-        name="ID"
-      />
-      <input
-        class="js-employee-title"
-        type="text"
-        placeholder="Title"
-        id="Title"
-        name="Title"
-      />
-      <input
-        class="js-employee-salary"
-        type="number"
-        placeholder="Annual Salary"
-        id="Salary"
-        name="Salary"
-      />
-      <button class="js-click-employee" type="submit">Submit</button>
-    </form>
+    <div class="container">
+      <form class="js-employee-stats">
+        <input
+          class="js-employee-FN"
+          type="text"
+          placeholder="First Name"
+          id="FirstName"
+          name="FirstName"
+        />
+        <input
+          class="js-employee-LN"
+          type="text"
+          placeholder="Last Name"
+          id="LastName"
+          name="LastName"
+        />
+        <input
+          class="js-employee-ID"
+          type="number"
+          placeholder="ID"
+          id="ID"
+          name="ID"
+        />
+        <input
+          class="js-employee-title"
+          type="text"
+          placeholder="Title"
+          id="Title"
+          name="Title"
+        />
+        <input
+          class="js-employee-salary"
+          type="number"
+          placeholder="Annual Salary"
+          id="Salary"
+          name="Salary"
+        />
+        <button class="js-click-employee btn" type="submit">Submit</button>
+      </form>
 
-    <table class="js-table">
-      <thead>
-        <tr>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>Employee ID</th>
-          <th>Job Title</th>
-          <th>Annual Salary</th>
-        </tr>
-      </thead>
-      <tbody class="js-table-body">
-        <tr class="js-table-body-row">
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td><button class="js-btn-delete">Delete</button></td>
-        </tr>
-      </tbody>
-    </table>
+      <table class="js-table">
+        <thead>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Employee ID</th>
+            <th>Job Title</th>
+            <th>Annual Salary</th>
+          </tr>
+        </thead>
+        <tbody class="js-table-body">
+          <tr class="js-table-body-row">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><button class="js-btn-delete btn">Delete</button></td>
+          </tr>
+        </tbody>
+      </table>
 
-    <div>Total Monthly Salary: <span class="js-total-salary">0.00</span></div>
+      <div class="total">
+        Total Monthly Salary: <span class="js-total-salary">0.00</span>
+      </div>
+    </div>
   </body>
 </html>
