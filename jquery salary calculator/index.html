@@ -4,9 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <script src="jquery.js" type="text/javascript"></script>
     <script src="client.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="style.css" />
 
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>Salary Calculator</h1>
+    </header>
+    <form class="js-employee-stats">
+      <input class="js-employee-FN" type="text" placeholder="First Name" />
+      <input class="js-employee-LN" type="text" placeholder="Last Name" />
+      <input class="js-employee-ID" type="number" placeholder="ID" />
+      <input class="js-employee-title" type="text" placeholder="Title" />
+      <input
+        class="js-employee-salary"
+        type="number"
+        placeholder="Annual Salary"
+      />
+      <button class="js-click-employee" type="submit">Submit</button>
+    </form>
+
+    <table class="js-table">
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Employee ID</th>
+          <th>Job Title</th>
+          <th>Annual Salary</th>
+        </tr>
+      </thead>
+      <tbody class="js-table-body">
+        <tr class="js-table-body-row">
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div>Total Monthly <span class="js-total-salary">0.00</span></div>
+  </body>
 </html>
